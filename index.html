@@ -6,7 +6,7 @@
     <title>LoveRainyu</title>
     <style>
         #title{
-            color: red;
+            color: blue;
             font-size: 100px;
             font-weight: bold;
             text-align: center;
@@ -27,7 +27,7 @@
             padding: 10px 20px;
             border-radius: 5px;
             animation: btn 5s linear infinite;
-            font-size: 20px;
+            font-size: 50px;
             font-weight: bold;
             text-align: center;
             margin-top: 100px;
@@ -41,16 +41,26 @@
                 color: blue;
             }
         }
+        body {
+            background: linear-gradient(135deg, #ff4e50, #f9d423, #6ce8ff, #8ef9a2);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
     <h1 id="title">LoveRainyu</h1>
     <div class="container" id="jump">
-        <p>5折优惠券</p>
+        <p style="">5折优惠券</p>
         <a href="https://www.rainyun.com/yunrain_" id="btn">立即领取</a>
     </div>
     
-    <audio src="./1286589960.mp3" id="background-music" autoplay controls style="opacity: 0;"></audio>
+    <audio src="./1286589960.mp3" id="background-music" autoplay controls></audio>
     <script>
         
 </script>
