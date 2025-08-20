@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveRainyu</title>
+    <style>
+        #title{
+            color: red;
+            font-size: 100px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 100px;
+            animation: title 10s linear infinite;
+        }
+        @keyframes title{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        #jump{
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            animation: btn 5s linear infinite;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 100px;
+            animation: title 10s linear infinite;
+        }
+        @keyframes btn{
+            0%{
+                color: green;
+            }
+            100%{
+                color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">LoveRainyu</h1>
+    <div class="container" id="jump">
+        <p>5折优惠券</p>
+        <a href="https://www.rainyun.com/yunrain_" id="btn">立即领取</a>
+    </div>
+</body>
+</html>
